@@ -10,11 +10,47 @@ package itu.rwis.handin01;
 public final class R {
     public static final class attr {
     }
+    public static final class dimen {
+        /**  Default screen margins, per the Android Design guidelines. 
+
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
+    
+         */
+        public static final int activity_horizontal_margin=0x7f040000;
+        public static final int activity_vertical_margin=0x7f040001;
+    }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
+    public static final class id {
+        public static final int RelativeLayout1=0x7f070002;
+        public static final int add_book_fragment=0x7f070000;
+        public static final int button_addNewBook=0x7f07000b;
+        public static final int button_cancelNewBook=0x7f07000a;
+        public static final int editText_author=0x7f070005;
+        public static final int editText_pages=0x7f070008;
+        public static final int editText_title=0x7f070007;
+        public static final int new_book=0x7f070001;
+        public static final int textView_author=0x7f070006;
+        public static final int textView_newBookHeader=0x7f070003;
+        public static final int textView_pages=0x7f070009;
+        public static final int textView_title=0x7f070004;
+    }
+    public static final class layout {
+        public static final int activity_browse_books=0x7f030000;
+        public static final int fragment_add_book=0x7f030001;
+    }
     public static final class string {
-        public static final int app_name=0x7f030000;
+        public static final int app_name=0x7f050000;
+        public static final int author_prompt=0x7f050004;
+        public static final int cancel_add_book=0x7f050007;
+        public static final int confirm_add_book=0x7f050008;
+        public static final int new_book=0x7f050002;
+        public static final int new_book_header=0x7f050006;
+        public static final int pages_prompt=0x7f050005;
+        public static final int title_activity_browse_books=0x7f050001;
+        public static final int title_prompt=0x7f050003;
     }
     public static final class style {
         /** 
@@ -38,10 +74,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f040000;
+        public static final int AppBaseTheme=0x7f060000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f040001;
+        public static final int AppTheme=0x7f060001;
     }
 }

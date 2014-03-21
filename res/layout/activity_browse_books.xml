@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BrowseBooksActivity" >
+    
+    <RelativeLayout
+		android:id="@+id/add_book_fragment"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:focusable="true" />	
+    	
+	<Button
+        android:id="@+id/new_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/new_book" />
+        
+	<ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/new_book" />
+</RelativeLayout>

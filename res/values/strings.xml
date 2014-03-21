@@ -1,5 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">LibraryApp</string>
+    <string name="title_activity_browse_books">BrowseBooksActivity</string>
+    <string name="new_book">New book</string>
+    <string name="title_prompt">Title:</string>
+    <string name="author_prompt">Author:</string>
+    <string name="pages_prompt">Number of pages: </string>
+    <string name="new_book_header">Add new book</string>
+    <string name="cancel_add_book">Cancel</string>
+    <string name="confirm_add_book">Add</string>
 
 </resources>

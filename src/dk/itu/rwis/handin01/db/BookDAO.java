@@ -9,7 +9,7 @@ public class BookDAO {
 
 	public final static String TABLE_NAME = "Books";
 	
-	public final static String ID_COL = "_ID";
+	public final static String ID_COL = "_id";
 	public final static String TITLE_COL = "Title";
 	public final static String AUTHOR_COL = "Author";
 	public final static String PAGES_COL = "Pages";
@@ -42,7 +42,7 @@ public class BookDAO {
 	}
 		
 	public Cursor getAllBooks() {
-		String query = "SELECT * FROM " + TABLE_NAME;
+		String query = "SELECT _id as _id, * FROM " + TABLE_NAME;
 		Cursor cursor = db.rawQuery(query, null);
 		return cursor;
 	}
